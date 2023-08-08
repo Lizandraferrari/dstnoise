@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="sensorLandscape"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name="redirecionamentos.maylsonActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="redirecionamentos.ciganoActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="redirecionamentos.lizandraActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".escolhaActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="redirecionamentos.edgardActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".fumanteActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".barActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".funHouseActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".showActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".mainActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".inicioActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape" />
+    </application>
+
+</manifest>

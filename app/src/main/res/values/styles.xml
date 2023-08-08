@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="Widget.Theme.DatingSimT.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.DatingSimT.ButtonBar.Fullscreen" parent="">
+
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/verde</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
