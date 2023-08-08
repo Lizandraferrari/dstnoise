@@ -1,2 +1,2 @@
-"# dstnoise" 
-"# dstnoise" 
+Testando inicialização do git no notebook
+(:
